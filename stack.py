@@ -30,3 +30,10 @@ def pop_pilha(pilha):
 
 # usando as funções de manipulação de pilha
 pilha = criar_pilha()
+push_pilha(pilha, str("eu"))
+push_pilha(pilha, str("me"))
+push_pilha(pilha, str("chamo"))
+push_pilha(pilha, str("g"))
+print("pilha antes do item removido: " + str(pilha))
+print("item removido: " + pop_pilha(pilha))
+print("pilha depois do item removido: " + str(pilha))
