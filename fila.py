@@ -21,3 +21,18 @@ class Fila:
 
     def tamanho(self):
         return len(self.fila)
+
+
+q = Fila()
+q.enfileirar(str("esta"))
+q.enfileirar(str("é"))
+q.enfileirar(str("uma"))
+q.enfileirar(str("fila"))
+
+print("fila antes de remover um item")
+q.imprimir()
+
+q.defileirar()
+
+print("fila apos de remover um item")
+q.imprimir()
